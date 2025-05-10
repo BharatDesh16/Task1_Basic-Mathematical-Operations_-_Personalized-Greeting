@@ -1,0 +1,21 @@
+'''*******Task1**********'''
+
+Num1=float(input("Enter the first number: "))
+Num2=float(input("Enter the second number: "))
+Addition=Num1+Num2
+Subtraction=Num1 - Num2
+Multiplication=Num1*Num2
+if Num2 != 0:
+    Division = Num1 / Num2
+else:
+    Division = "Undefined (cannot divide by zero)"
+print("Addition: ", Addition)
+print("Subtraction: ", Subtraction)
+print("Multiplication: ", Multiplication)
+print("Division: ", Division)
+
+'''************Task2************'''
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+full_name = first_name + " " + last_name
+print(f"Hello, {full_name}! Welcome to the Python program.")
